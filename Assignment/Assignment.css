@@ -1,0 +1,167 @@
+/* This styles the navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    color: thistle;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-family: Helvetica;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+/* This styles the text/links in the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: thistle;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+/* Highlights sections of the navigation bar that leads you to other pages */
+.navbar .highlight {
+    width: 5%;
+    transform: translate(600%, 20%);
+}
+
+/* Highlights sections of the navigation bar that leads you to other pages */
+.navbar .highlight:hover {
+    background: #ddd;
+    color: thistle;
+}
+
+/* Gives some padding to the content in the main tag */
+.main {
+    margin-top: 30px;
+    height: 1500px;
+    padding-top: 70px;
+}
+
+/* This styles the logo, "S.AMETHYST" */
+#logo{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Styles Sam's picture */
+#sam{
+    float: right;
+    width: 40%;
+    padding-right: 100px;
+    margin-left: 25px;
+}
+
+/*Styles Sam's picture*/
+
+#sam1{
+
+    width: 100%;
+}
+
+#sam2{
+    width: 100%;
+}
+
+#sam3{
+    width: 100%;
+}
+
+#sam4{
+    width: 100%;
+}
+
+#sam5{
+    width: 100%;
+
+}
+
+
+/* This styles the headers on each page */
+h1{
+    font-weight: bold;
+    font-family: Helvetica;
+    background-color: black;
+    padding: 30px;
+    padding-left: 100px;
+    color: white;
+}
+
+/* This styles mainly the subheader for the 'About' page */
+h2{
+    font-weight: bold;
+    font-family: Helvetica;
+    background-color: white;
+    padding: 30px;
+    padding-left: 100px;
+    color: black;
+}
+
+/* This styles the content in the 'About' page */
+p{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-family: Helvetica;
+
+}
+
+/* This styles the footer to have a more modern look */
+footer{
+    background-color: black;
+    padding: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* This styles the footer to have a more modern look */
+footer a{
+    text-decoration: none;
+    color: thistle;
+}
+
+/* The iframe wasn't passing the validation tests, so I put these styles into the CSS file and it seemed to work just fine afterwards */
+#soundcloud{
+    width: 80%;
+    height: 500px;
+    border: 1px solid lightgray;
+    overflow: scroll;
+    margin-left: 10%;
+}
+
+/* Tried to mess with the dialog */
+#dialog{
+    align-content: center;
+}
+
+/* Drake iframe */
+#drake{
+    float: right;
+    width: 480px;
+    height: 270px;
+    margin-left: 25px;
+}
+
+/* Centers the slideshow */
+.cycle-slideshow{
+    width: 40%;
+    height: 10%;
+    margin: 20px auto;
+}
+
+#pay{
+    margin-left: 37%;
+    width: 25%;
+}
+
+div div p{
+    font-size: 15px;
+}

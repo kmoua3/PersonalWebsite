@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="Assignment.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="project.js"></script>
+</head>
+<body>
+<main>
+    <!-- This is the code for the standard navigation bar for all of the pages. -->
+<div id="navbar" class="navbar">
+    <a href="index.html" id="logo">S.AMETHYST</a>
+    <a href="beats.html" id="beats" class="highlight">Beats</a>
+    <a href="gallery.html" id="gallery" class="highlight">Gallery</a>
+    <a href="about.html" id="about" class="highlight">About</a>
+</div>
+
+    <br><br><br>
+
+    <!-- Page header. Changes on every page -->
+    <h1>Home</h1>
+
+    <!-- Soundcloud player -->
+    <iframe id="soundcloud" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/516829632&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+    <div id="pay">
+
+        <div id="x">
+        </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+    <script>paypal.Buttons().render('div#pay');</script>
+    </div>
+
+</main>
+
+<footer>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>>
+</footer>
+</body>
+</html>
